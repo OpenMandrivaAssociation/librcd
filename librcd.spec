@@ -56,6 +56,7 @@ for development purposes only.
 
 %install
 %makeinstall_std
+%__rm -f %{buildroot}/%{_libdir}/*.la
 
 %files -n %{libname}
 %{_libdir}/librcd.so.%{major}
