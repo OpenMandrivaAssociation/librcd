@@ -56,7 +56,6 @@ for development purposes only.
 
 %install
 %makeinstall_std
-%__rm -f %{buildroot}/%{_libdir}/*.la
 
 %files -n %{libname}
 %{_libdir}/librcd.so.%{major}
@@ -66,3 +65,15 @@ for development purposes only.
 %doc AUTHORS ChangeLog README
 %{_libdir}/librcd.so
 %{_includedir}/librcd.h
+
+
+%changelog
+* Tue Feb 21 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.1.13-2
++ Revision: 778548
+- add provides for devel package
+- fix description
+
+* Mon Feb 20 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.1.13-1
++ Revision: 778194
+- imported package librcd
+
