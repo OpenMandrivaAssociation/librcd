@@ -5,7 +5,7 @@
 Summary:	Russian charset detection library
 Name:		librcd
 Version:	0.1.14
-Release:	4
+Release:	5
 License:	LGPLv2.1+
 Group:		System/Libraries
 Url:		http://http://rusxmms.sourceforge.net
