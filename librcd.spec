@@ -8,7 +8,7 @@ Version:	0.1.14
 Release:	9
 License:	LGPLv2.1+
 Group:		System/Libraries
-Url:		http://http://rusxmms.sourceforge.net
+Url:		https://http://rusxmms.sourceforge.net
 Source0:	%{name}-%{version}.tar.bz2
 
 %description
