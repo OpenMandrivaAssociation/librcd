@@ -11,6 +11,11 @@ Group:		System/Libraries
 Url:		https://http://rusxmms.sourceforge.net
 Source0:	%{name}-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Library for autodection charset of russian text.
 
